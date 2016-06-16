@@ -5,6 +5,6 @@ for (var i = 0; i < trs.length; i++) {
 	var tr = trs[i];
 
 	tr.addEventListener("mouseover",function(){
-		this.setAtributte("bgcolor","gray");
+		this.setAttribute("bgcolor","grey");
 	});
 }

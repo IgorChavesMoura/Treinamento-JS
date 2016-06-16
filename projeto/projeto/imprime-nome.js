@@ -1,6 +1,6 @@
 var trsPacientes = document.getElementsByClassName("paciente");
 
-for(var posAtual = 0; posAtual < trPacientes.length; posAtual++){
+for(var posAtual = 0; posAtual < trsPacientes.length; posAtual++){
 
 	var	trPaciente = trsPacientes[posAtual];
 

@@ -1,4 +1,8 @@
-function calculaTodosImcs(){
+
+
+var botao = document.getElementById("calcula-imcs");
+//botao.onclick = calculaTodosImcs;
+botao.addEventListener("click",	function (){
 	var trPacientes = document.getElementsByClassName("paciente");
 	for (var i = 0; i < trPacientes.length; i++) {
 		var pacienteTr = trPacientes[i];
@@ -27,8 +31,4 @@ function calculaTodosImcs(){
 
 	}
 
-}
-
-var botao = document.getElementById("calcula-imcs");
-//botao.onclick = calculaTodosImcs;
-botao.addEventListener("click", calculaTodosImcs);
+} );
